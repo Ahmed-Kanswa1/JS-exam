@@ -1,0 +1,99 @@
+:root{
+    --bg-layer:255,255,255,0.8;
+}
+body{
+    background-color: black;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    padding-bottom: 15px ;
+    
+   
+}
+a,.navFooter{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+ 
+}
+#displayData a,.layer h3{
+    color: black;
+}
+
+
+/*****************nav bar*************/
+nav i{
+    cursor: pointer;
+}
+.my-navbar{
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    z-index: 333;
+}
+.navList{
+    height: 100%;
+    width: 190px;
+}
+.openClose{
+    width: 60px;
+}
+#listItem1,#listItem2,#listItem3,#listItem4,#listItem5{
+    top: 200px;
+    left: -200px;
+}
+
+/*****************nav bar*************/
+
+/***********************Section********************************/
+.layer{
+    background-color: rgba(var(--bg-layer));
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: top 0.57s;
+}
+.image{
+    border-radius: 5px;
+    overflow: hidden;
+  
+}
+.image:hover .layer{
+    top: 0;
+}
+
+
+
+
+
+
+
+/***********************Section********************************/
+/***********************Details page 2********************************/
+
+#myPage2 ,h3,h2,p ,ul{
+    color: #fff;
+}
+
+
+
+
+
+/***********************Details page 2********************************/
+
+/*------------------search-----------------------*/
+#inputs input::placeholder{
+    color: #acabab;
+}
+
+
+
+
+
+
+
+
+
+
