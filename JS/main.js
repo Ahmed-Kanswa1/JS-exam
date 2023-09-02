@@ -963,6 +963,19 @@ function allInputs() {
 }
 allInputs()
 
+function hideAlerts() {
+    if(Name=$('#name11').val()==""){
+        $('#emailAlert').hide()
+        $('#nameAlert').hide()
+        $('#phoneAlert').hide()
+        $('#ageAlert').hide()
+        $('#pass1Alert').hide()
+        $('#pass2Alert').hide()
+
+    }
+}
+hideAlerts()
+
 
 
 
@@ -995,6 +1008,12 @@ allInputs()
  
 
 // });
+
+$(document).ready(function () {
+    $('#loading').fadeOut(500,function () {
+        $("body").css('overflow','auto')
+    })
+})
 
 
 
