@@ -12,7 +12,7 @@ let apiData=``
 let apiResponse=``
 let meals=``
 async function getAPI(){
-     apiData= await fetch('https:themealdb.com/api/json/v1/1/search.php?s=')
+     apiData= await fetch('https://themealdb.com/api/json/v1/1/search.php?s=')
      apiResponse= await apiData.json()
     meals=apiResponse.meals
     // console.log(meals[3].strMeal);
